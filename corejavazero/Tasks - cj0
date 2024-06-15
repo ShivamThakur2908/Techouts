@@ -1,0 +1,36 @@
+TASK 1 :- Code Standard For Java
+
+1. Use snake casing to name the packages.
+2. Use pascal casing to name the classes and interfaces.
+3. Use the camel casing to name the methods and variables.
+4. Use the proper variable name, class & interface name, method name.
+5. Make use of proper indentation and spacing when required.
+6. Use proper comment for good code understanding and readability.
+
+
+for example:
+
+public class PersonInfo
+{
+	public static void main(String [] args)
+	{
+		String name = "Shivam Thakur";
+		int age = 22;
+		String jobRole = "Trainee";
+		
+		System.out.println("Name :" +name);
+		System.out.println("Age :" +age);
+		System.out.println("Job Role :" +jobRole);
+	}
+}
+
+TASK 2 :- Sonar Lint
+
+It is a extension used for check the spell mistakes in the code, proper use of naming format and to check the quality of the code. 
+Sonar Lint help us to fix the mistakes in the code before saving and committing.
+
+TASK 3 :- GitHub
+
+User Id :- ShivamThakur2908
+Repository :- 1. Techout's.
+password :- ***************

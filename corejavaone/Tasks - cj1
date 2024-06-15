@@ -1,0 +1,46 @@
+CJ1 
+
+1.Introduction to Java(What is java and basic introduction)
+	Java is open source object oriented programming language which was first introduced in 1995. It is easy to use and understand. It is not a 100% object oriented programming language because
+	it support primitive data types. Java is used for building various mobile application, web application and softwares. It is a major programming language on which the project is built.
+	
+2. Java Virtual Machine(JVM) Basics
+	JVM is interpreter which help to execute the java byte code. It is a platform dependent i.e for different OS we have to install the different version of JVM. JVM is responsible for the memory 
+	allocation and management for the java program.
+	
+3. First Java Program
+	public class FirstJavaProgram
+	{
+		public static void main(String [] args)
+		{
+			System.out.println("Hi Shivam");
+		}
+	}
+	
+4. Variables in Java
+	Variables are the memory block which is used to store the data. Variable are of three types
+	1. local variable
+		variable which are declare and initialized in the function and block are called local variable. Local variable can not be used out side the method or block. Before we use the local
+		local variable we must initialize the variable.
+	2. Instance variable
+		Instance variable is a non static variable which is declared outside the method and block. Initialization is not necessary for this variable. We can control the reach of the variable
+		by using access specifiers. Instance variable is only created when we use object creation statement. We can only access the instance variable by using object reference variable. Instance 
+		variable is multiple copy nature i.e for every object there is separate copy of the variable. If we made any changes to the variable to a particular object it will not affect the variable
+		of other object.
+	3. static variable
+		Static variable is also known as class variable. these variable is also similar to instance variable but for static variable we must and should declare the variable as static. This variables
+		have single copy nature which means that when we create an object of class then those object will not get the separate copy of the variable instead of that these variable will get shared with
+		each object. If we are accessing the variable in the same class we don't have to use class name but if we are using these variable in different class we must and should use class name. 
+		We can also use access specifier to control the reach of the static variable. 
+		
+5. Java Data Types
+	Data Types are the pre-defined reserved keywords in the java. Data types are used to specify the type of data to be stored in the memory block i.e variable. There are 9 type of data types 
+	1. byte - integer - 1 byte
+	2. short - integer - 2 byte
+	3. int - integer - 4 byte
+	4. long - integer - 8 byte
+	5. float - decimal - 4 byte
+	6. double - decimal - 8 byte
+	7. char - single character - 2 byte
+	8. boolean - true/false - 1 bit 
+	9. String - Non primitive - not defined

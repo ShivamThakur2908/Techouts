@@ -1,0 +1,107 @@
+CJ2	
+6. Java Operators
+	Arithmetic Operators
+		* : Multiplication
+		/ : Division
+		% : Modulo
+		+ : Addition
+		– : Subtraction
+		
+	Unary Operators
+	- : indicate negative value
+	+ : indicate negative value
+	-- : Decrement operator 
+		--a : pre-decrement (means first decrease then compute)
+		a-- : post-decrement (means first compute then decrease) 
+	++ : Increment operator 
+		++a : pre-increment (means first increase then compute)
+		a-- : post-increment (means first compute then increase) 
+		
+	Assignment Operator
+		+= : first compute addition then assign to right variable.
+		-= : first compute subtraction then assign to right variable.
+		*= : first compute multiplication then assign to right variable.
+		/= : first compute division then assign to right variable.
+		%= : first compute modulus then assign to right variable.
+		
+	Relational Operators
+		== : it is used to compare the right side to left side.
+		!= : it is used to compare the right side to left side.
+		< : it is used to check that the right side is less then to left side or not.
+		<= : it is used to check that the right side is less then or equal to left side or not.
+		> : it is used to check that the right side is greater then to left side or not.
+		>= : it is used to check that the right side is greater then or equal to left side or not.
+		
+	Logical Operators
+		&&, Logical AND: returns true when both conditions are true.
+		||, Logical OR: returns true if at least one condition is true.
+		!, Logical NOT: returns true when a condition is false and vice-versa
+		
+	Ternary Operator
+		condition ? if true : if false 
+		1. 2>4 ? true : false -> false
+		2. 2<4 ? true : false -> true
+		
+	Bitwise Operators
+		&, Bitwise AND operator: returns bit by bit AND of input values.
+		|, Bitwise OR operator: returns bit by bit OR of input values.
+		^, Bitwise XOR operator: returns bit-by-bit XOR of input values.
+		~, Bitwise Complement Operator: This is a unary operator which returns the one’s complement representation of the input value, i.e., with all bits inverted.
+		
+	Shift Operators
+		<< : Left shift operator: shifts the bits of the number to the left and fills 0 on voids left as a result. Similar effect as multiplying the number with some power of two.
+		>> : Signed Right shift operator: shifts the bits of the number to the right and fills 0 on voids left as a result. The leftmost bit depends on the sign of the initial number. Similar effect to dividing the number with some power of two.
+		>>> :  Unsigned Right shift operator: shifts the bits of the number to the right and fills 0 on voids left as a result. The leftmost bit is set to 0.
+
+	instance of operator
+		object instance of class/subclass/interface : it is used to check the instance of object.
+		
+7. If-else in Java
+	if-else is a conditional statement in java. which is used to check the and validate the condition written in the if statement. if the condtion is true then the if block will get execute
+	if it is false then the else statement will execute. we can use if statement alone but we cannot use else statement alone.
+	syntax :
+	if(condition)
+	{ 
+		\\operations
+	}
+	else
+	{
+		\\operations
+	}
+	
+8. Switch-Case in Java
+	switch case is similar to the if-else-if statement. Here, we have to check the single expression with multiple values.
+	syntax:
+	switch(expression)
+	{
+		case 1:
+		 \\ operation
+		 break;
+		 
+		 case 2:
+		 \\ operation
+		 break;
+		 
+		 case 3:
+		 \\ operation
+		 break;
+		 
+		 case 4:
+		 \\ operation
+		 break;
+		 
+		 case 5:
+		 \\ operation
+		 break;
+		 
+		 case n:
+		 \\ operation
+		 break;
+		 
+		 default :
+		 \\ operation
+		 break;
+	}
+	
+	if we do not use break statement and expression result value is 2 then all the case will execute from case 2. if expression result value is not matched then it will execute only default case.
+	

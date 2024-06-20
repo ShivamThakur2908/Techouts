@@ -1,3 +1,4 @@
+package tasks;
 //  Main Class For custom exception
 
 import java.util.Scanner;

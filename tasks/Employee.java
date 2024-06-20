@@ -1,3 +1,4 @@
+package tasks;
 // Employee class.
 public class Employee {
     private String name;

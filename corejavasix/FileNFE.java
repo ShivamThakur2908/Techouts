@@ -1,5 +1,6 @@
 package corejavasix;
-import java.io.*;
+import java.io.File;
+import java.io.FileReader;
 public class FileNFE {//FileNotFoundException
 
 	public static void main(String[] args) {

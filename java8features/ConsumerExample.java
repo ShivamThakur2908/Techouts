@@ -18,7 +18,7 @@ public class ConsumerExample {
 		name.add("Kailash");
 		
 		Consumer<String> printName = name1 -> System.out.println(name1);
-		name.forEach(printName);
+//		name.forEach(printName);
 
 	}
 

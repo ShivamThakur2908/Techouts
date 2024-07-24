@@ -12,6 +12,7 @@ public class DefaultInterfaceMainClass {
 				};
 		d.add();
 		// We can override the default method of interface.
+		DefaultInterfaceMainClass obj = new DefaultInterfaceMainClass();
 	}
 
 }
